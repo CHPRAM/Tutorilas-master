@@ -17,7 +17,7 @@ public class IndexController {
 		String deviceType = "browser";
 		String platform = "browser";
 		String viewName = "index";
-
+         System.out.println("Device Name");
 		if (device.isNormal()) {
 			deviceType = "browser";
 		} else if (device.isMobile()) {
